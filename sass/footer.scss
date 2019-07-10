@@ -1,0 +1,254 @@
+.sale-member {
+  float: left;
+  min-width: 1240px;
+  width: 90%;
+  height: 230px;
+  margin-left: 4.3%;
+  background-color: white;
+  margin-top: 50px;
+  position: relative;
+  left: 16%;
+  h2 {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  a {
+    img {
+      margin-left: 10px;
+      min-width: 1220px;
+      width: 98%;
+    }
+  }
+}
+footer {
+  float: left;
+  margin-top: 20px;
+  background-color: white;
+  min-width: 1500px;
+  width: 160%;
+  height: 250px;
+  .info{
+    position: relative;
+    left: 10%;
+    .info-first {
+    float: left;
+    margin-top: 0px;
+    margin-left: 57px;
+    margin-right: 50px;
+    ul {
+      display: inline;
+      li {
+        margin-top: 10px;
+        list-style: none;
+        color: rgb(7, 140, 228);
+        font-size: 14px;
+        a {
+          text-decoration: none;
+        }
+      }
+      li:hover {
+        color: black;
+      }
+    }
+  }
+  .info-second {
+    @extend .info-first;
+  }
+  .suport {
+    float: left;
+    margin-top: 20px;
+    margin-left: 57px;
+    margin-right: 60px;
+    ul {
+      li {
+        list-style: none;
+        font-size: 13px;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          color: gray;
+        }
+        img {
+          width: 100px;
+          height: 50px;
+        }
+      }
+    }
+  }
+  .info-third {
+    float: left;
+    margin-top: 27px;
+    margin-left: 70px;
+    .media1 {
+      font-size: 10.5px;
+      text-decoration: none;
+      color: rgb(7, 140, 228);
+      margin-right: 10px;
+      img {
+        width: 15px;
+        height: 15px;
+      }
+    }
+    .media2 {
+      @extend .media1;
+    }
+    .website {
+      margin-top: 10.5px;
+      h4 {
+        font-size: 14px;
+        color: gray;
+      }
+      .web1 {
+        display: block;
+        img {
+          width: 130px;
+          height: 20px;
+        }
+      }
+      .web2 {
+        @extend .web1;
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+  .info-end {
+    background-color: white;
+    width: 1350px;
+    font-size: 9px;
+    color: grey;
+    clear: left;
+    text-align: center;
+    margin-left: 10px;
+    a {
+      text-decoration: none;
+    }
+  }
+    .info-first {
+      float: left;
+      margin-top: 0px;
+      margin-left: 57px;
+      margin-right: 50px;
+      ul {
+        display: inline;
+        li {
+          margin-top: 10px;
+          list-style: none;
+          color: rgb(7, 140, 228);
+          font-size: 14px;
+          a {
+            text-decoration: none;
+          }
+        }
+        li:hover {
+          color: black;
+        }
+      }
+    }
+    .info-second {
+      @extend .info-first;
+    }
+    .suport {
+      float: left;
+      margin-top: 20px;
+      margin-left: 57px;
+      margin-right: 60px;
+      ul {
+        li {
+          list-style: none;
+          font-size: 13px;
+          margin-top: 10px;
+          a {
+            text-decoration: none;
+          }
+          a:hover {
+            color: gray;
+          }
+          img {
+            width: 100px;
+            height: 50px;
+          }
+        }
+      }
+    }
+    .info-third {
+      float: left;
+      margin-top: 27px;
+      margin-left: 70px;
+      .media1 {
+        font-size: 10.5px;
+        text-decoration: none;
+        color: rgb(7, 140, 228);
+        margin-right: 10px;
+        img {
+          width: 15px;
+          height: 15px;
+        }
+      }
+      .media2 {
+        @extend .media1;
+      }
+      .website {
+        margin-top: 10.5px;
+        h4 {
+          font-size: 14px;
+          color: gray;
+        }
+        .web1 {
+          display: block;
+          img {
+            width: 130px;
+            height: 20px;
+          }
+        }
+        .web2 {
+          @extend .web1;
+          img {
+            width: 100px;
+          }
+        }
+      }
+    }
+    .info-end {
+      background-color: white;
+      width: 1350px;
+      font-size: 9px;
+      color: grey;
+      clear: left;
+      text-align: center;
+      margin-left: 10px;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.back-to-top {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: 15px;
+  bottom: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+  z-index: 9999;
+  cursor: pointer;
+  float: left;
+  background-color: #fdd504;
+  opacity: 0.7;
+  border-radius: 5px;
+  span {
+    padding: 12px;
+  }
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}

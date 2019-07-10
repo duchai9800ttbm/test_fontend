@@ -1,0 +1,292 @@
+$name: ("icon-dienthoai"), ("icon-tablet"), ("icon-laptop"), ("icon-phukien"), ("icon-dongho"), ("icon-giare"),
+  ("icon-congnghe"), ("icon-hoidap"), ("fix");
+
+@mixin icon-auto($name) {
+  @each $var in $name {
+    .#{$var} {
+      @if ($var== "icon-dienthoai") {
+        margin-left: 30%;
+      } @else if($var== "icon-phukien") {
+        margin-left: 20%;
+      } @else if($var== "icon-dongho") {
+        margin-left: 20%;
+      } @else if($var== "fix") {
+        position: relative;
+        right: -23%;
+      } @else {
+        margin-left: 1%;
+      }
+      display: block;
+      height: 26px;
+    }
+  }
+}
+.text-color{
+  color: black;
+  font-size: 10.5px;
+  font-weight: bold;
+}
+body{
+  min-width: 1300px;
+  max-width: 1500px;
+  width: 100%;
+}
+header {
+  min-width: 1200px;
+  width: 160%;
+  background-color: #fed700;
+  .mennu {
+    width: 100%;
+    height: 56px;
+    margin: auto;
+    position: relative;
+    right: 5px;
+    left: 10%;
+      .form-search {
+        float: left;
+        width: 25%;
+        max-width: 400px;
+        height: 56px;
+        margin: 10px 60px 0 0;
+        padding: 5px;
+        background: black;
+        position: relative;
+        bottom: 10px;
+        left: 2.8%;
+        input {
+          width: 45%;
+          border: 2px;
+          background: #fff;
+          height: 35px;
+          text-indent: 10px;
+          font-size: 12px;
+          border-radius: 4px 0px 0px 4px;
+          -webkit-border-radius: 4px 0px 0px 4px;
+          padding: 5px;
+          position: relative;
+          left: 11px;
+          
+        }
+        button {
+          width: 8%;
+          height: 35px;
+          border: 0;
+          background: white;
+          border-radius: 0px 4px 4px 0px;
+          -webkit-border-radius: 0px 4px 4px 0px;
+          font-size: 20px;
+          color: grey;
+          position: relative;
+          left: 5px;
+          top: 2px;
+        }
+        a {
+          margin-left: 5px;
+          .icon-logo {
+            width: 100%;
+            max-width: 150px;
+            height: 30px;
+          }
+        }
+      }
+      .form-mennu {
+        float: left;
+        max-width: 1070px;
+        width: 70%;
+        ul {
+          width: 100%;
+          padding: 0px;
+          margin: 0px;
+          list-style: none;
+          display: inline;
+          overflow: hidden;
+          li {
+            width: 80px;
+            @media screen and (min-width:1700px){
+              width: 95px;
+            }
+            height: 56px;
+            float: left;
+            padding: 5px 10px;
+            position: relative;
+            right: 10px;
+            a {
+              width: 100%;
+              color: black;
+              font-size: 60%;
+              font-weight: 300;
+              text-transform: uppercase;
+              line-height: 20px;
+              text-decoration: none;
+              text-align: center;
+              @include icon-auto($name);
+              p {
+                margin-top: 4%;
+              }
+              .text-diennuoc {
+                font-size: 60%;
+              }
+            }
+          }
+          li:hover {
+            background-color: white;
+          }
+          .Border {
+            
+            @media screen and (min-width:1800px){
+              width: 11%;
+              }
+              @media screen and (max-width:1879px){
+                width: 12.5%;
+                }
+         
+          }
+        }
+      }
+    }
+
+}
+.clr {
+  width: 100%;
+  height: 10px;
+  background-color: rgba(221, 217, 217, 0);
+}
+  .slider {
+    position: relative;
+    float: left;
+    max-width: 970px;
+    width: 57%;
+    height: 355px;
+    margin-left: 4.3%;
+    background-color: whitesmoke;
+    left: 16%;
+    @media screen and (max-width:1300px){
+      min-width: 60%;
+    }
+    @media screen and (min-width:1301px)and(max-width:1352px){
+       width: 58%;
+    }
+    .w3-center {
+      font-size: 10.5px;
+      width: 100%;
+    }
+    .demo {
+      width: 19.05%;
+    }
+    .mySlides {
+      height: 300px;
+      width: 100%;
+    }
+    #edit {
+      border: 0;
+      border-radius: 5px;
+      width: 50px;
+      height: 55px;
+      opacity: 0;
+      background-color: black;
+      margin: 8px;
+    }
+
+    .glyphicon {
+      font-size: 25px;
+    }
+    .w3-content:hover {
+      #edit {
+        opacity: 0.4;
+      }
+    }
+  }
+  .new {
+    float: right;
+    background-color: whitesmoke;
+    width: 33%;
+    max-width: 480px;
+    height: 355px;
+    margin-right: 3.3%;
+    position: relative;
+    left: 15%;
+    @media screen and (min-width:1700px){
+      margin-right: 70px;
+    }
+
+      @media screen and (max-width:1300px){
+        margin-right:0px;
+      }
+      @media screen and (min-width:1301px)and(max-width:1699px){
+        margin-right:3.5%;
+      }
+    .alert {
+      font-size: 70%;
+      border-width: 1px;
+      border-bottom-style: ridge;
+      width: 100%;
+      height: 50px;
+      h2 {
+        display: inline;
+        background: #fdd504;
+        font-size: 16px;
+        padding: 9px;
+        font-weight: bold;
+        position: relative;
+        right: 3%;
+      }
+      a {
+        color: red;
+        font-size: 12px;
+        text-decoration: none;
+        position: relative;
+        left: 35%;
+        bottom: 30px;
+      }
+    }
+    .paper {
+      a {
+        text-decoration: none;
+        .img-paper {
+          float: left;
+          width: 20%;
+          height: 57px;
+          display: inline;
+          margin-left: 2%;
+          margin-right: 3%;
+        }
+        h3 {
+          font-size: 13px;
+          width: 50%;
+          display: inline;
+        }
+        h3:hover {
+          color: rgb(7, 140, 228);
+        }
+        p {
+          font-size: 12px;
+          margin-right: 10%;
+          color: darkgray;
+        }
+      }
+    }
+    .banner {
+      a {
+        img {
+          height: 105px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+.Ad {
+  margin-left: 4.3%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  min-width: 1240px;
+  max-width: 1700px;
+  width: 90%;
+  position: relative;
+  left: 16%;
+  a {
+    .img-ad {
+      width: 100%;
+    }
+  }
+}

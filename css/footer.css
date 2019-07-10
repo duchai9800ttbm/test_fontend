@@ -1,0 +1,186 @@
+.sale-member {
+  float: left;
+  min-width: 1240px;
+  width: 90%;
+  height: 230px;
+  margin-left: 4.3%;
+  background-color: white;
+  margin-top: 50px;
+  position: relative;
+  left: 16%; }
+  .sale-member h2 {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px; }
+  .sale-member a img {
+    margin-left: 10px;
+    min-width: 1220px;
+    width: 98%; }
+
+footer {
+  float: left;
+  margin-top: 20px;
+  background-color: white;
+  min-width: 1500px;
+  width: 160%;
+  height: 250px; }
+  footer .info {
+    position: relative;
+    left: 10%; }
+    footer .info .info-first, footer .info .info-second {
+      float: left;
+      margin-top: 0px;
+      margin-left: 57px;
+      margin-right: 50px; }
+      footer .info .info-first ul, footer .info .info-second ul {
+        display: inline; }
+        footer .info .info-first ul li, footer .info .info-second ul li {
+          margin-top: 10px;
+          list-style: none;
+          color: #078ce4;
+          font-size: 14px; }
+          footer .info .info-first ul li a, footer .info .info-second ul li a {
+            text-decoration: none; }
+        footer .info .info-first ul li:hover, footer .info .info-second ul li:hover {
+          color: black; }
+    footer .info .suport {
+      float: left;
+      margin-top: 20px;
+      margin-left: 57px;
+      margin-right: 60px; }
+      footer .info .suport ul li {
+        list-style: none;
+        font-size: 13px;
+        margin-top: 10px; }
+        footer .info .suport ul li a {
+          text-decoration: none; }
+        footer .info .suport ul li a:hover {
+          color: gray; }
+        footer .info .suport ul li img {
+          width: 100px;
+          height: 50px; }
+    footer .info .info-third {
+      float: left;
+      margin-top: 27px;
+      margin-left: 70px; }
+      footer .info .info-third .media1, footer .info .info-third .media2 {
+        font-size: 10.5px;
+        text-decoration: none;
+        color: #078ce4;
+        margin-right: 10px; }
+        footer .info .info-third .media1 img, footer .info .info-third .media2 img {
+          width: 15px;
+          height: 15px; }
+      footer .info .info-third .website {
+        margin-top: 10.5px; }
+        footer .info .info-third .website h4 {
+          font-size: 14px;
+          color: gray; }
+        footer .info .info-third .website .web1, footer .info .info-third .website .web2 {
+          display: block; }
+          footer .info .info-third .website .web1 img, footer .info .info-third .website .web2 img {
+            width: 130px;
+            height: 20px; }
+        footer .info .info-third .website .web2 img {
+          width: 100px; }
+    footer .info .info-end {
+      background-color: white;
+      width: 1350px;
+      font-size: 9px;
+      color: grey;
+      clear: left;
+      text-align: center;
+      margin-left: 10px; }
+      footer .info .info-end a {
+        text-decoration: none; }
+    footer .info .info-first, footer .info .info-second {
+      float: left;
+      margin-top: 0px;
+      margin-left: 57px;
+      margin-right: 50px; }
+      footer .info .info-first ul, footer .info .info-second ul {
+        display: inline; }
+        footer .info .info-first ul li, footer .info .info-second ul li {
+          margin-top: 10px;
+          list-style: none;
+          color: #078ce4;
+          font-size: 14px; }
+          footer .info .info-first ul li a, footer .info .info-second ul li a {
+            text-decoration: none; }
+        footer .info .info-first ul li:hover, footer .info .info-second ul li:hover {
+          color: black; }
+    footer .info .suport {
+      float: left;
+      margin-top: 20px;
+      margin-left: 57px;
+      margin-right: 60px; }
+      footer .info .suport ul li {
+        list-style: none;
+        font-size: 13px;
+        margin-top: 10px; }
+        footer .info .suport ul li a {
+          text-decoration: none; }
+        footer .info .suport ul li a:hover {
+          color: gray; }
+        footer .info .suport ul li img {
+          width: 100px;
+          height: 50px; }
+    footer .info .info-third {
+      float: left;
+      margin-top: 27px;
+      margin-left: 70px; }
+      footer .info .info-third .media1, footer .info .info-third .media2 {
+        font-size: 10.5px;
+        text-decoration: none;
+        color: #078ce4;
+        margin-right: 10px; }
+        footer .info .info-third .media1 img, footer .info .info-third .media2 img {
+          width: 15px;
+          height: 15px; }
+      footer .info .info-third .website {
+        margin-top: 10.5px; }
+        footer .info .info-third .website h4 {
+          font-size: 14px;
+          color: gray; }
+        footer .info .info-third .website .web1, footer .info .info-third .website .web2 {
+          display: block; }
+          footer .info .info-third .website .web1 img, footer .info .info-third .website .web2 img {
+            width: 130px;
+            height: 20px; }
+        footer .info .info-third .website .web2 img {
+          width: 100px; }
+    footer .info .info-end {
+      background-color: white;
+      width: 1350px;
+      font-size: 9px;
+      color: grey;
+      clear: left;
+      text-align: center;
+      margin-left: 10px; }
+      footer .info .info-end a {
+        text-decoration: none; }
+
+.back-to-top {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: 15px;
+  bottom: 15px;
+  font-size: 20px;
+  opacity: 0.8;
+  z-index: 9999;
+  cursor: pointer;
+  float: left;
+  background-color: #fdd504;
+  opacity: 0.7;
+  border-radius: 5px; }
+  .back-to-top span {
+    padding: 12px; }
+
+.back-to-top:hover {
+  opacity: 1; }
+
+/*# sourceMappingURL=footer.css.map */
