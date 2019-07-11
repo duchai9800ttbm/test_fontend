@@ -7,7 +7,10 @@
   background-color: white;
   margin-top: 50px;
   position: relative;
-  left: 16%;
+  left: 2.5%;
+  @media screen and (min-width:1400px){
+    left:24%;
+  }
   h2 {
     padding: 5px;
     font-size: 18px;
@@ -31,7 +34,10 @@ footer {
   height: 250px;
   .info{
     position: relative;
-    left: 10%;
+    left: 1%;
+    @media screen and (min-width:1400px){
+      left:15%;
+    }
     .info-first {
     float: left;
     margin-top: 0px;

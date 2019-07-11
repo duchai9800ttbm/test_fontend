@@ -7,7 +7,10 @@
   background-color: white;
   margin-top: 50px;
   position: relative;
-  left: 16%; }
+  left: 2.5%; }
+  @media screen and (min-width: 1400px) {
+    .sale-member {
+      left: 24%; } }
   .sale-member h2 {
     padding: 5px;
     font-size: 18px;
@@ -27,7 +30,10 @@ footer {
   height: 250px; }
   footer .info {
     position: relative;
-    left: 10%; }
+    left: 1%; }
+    @media screen and (min-width: 1400px) {
+      footer .info {
+        left: 15%; } }
     footer .info .info-first, footer .info .info-second {
       float: left;
       margin-top: 0px;

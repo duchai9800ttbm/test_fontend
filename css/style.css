@@ -1,4 +1,5 @@
-.list-items { float: left; background-color: white; min-width: 1240px; width: 90%; height: 400px; position: relative; left: 20%; }
+.list-items { float: left; background-color: white; min-width: 1240px; width: 90%; height: 400px; position: relative; left: 7%; }
+@media screen and (min-width: 1400px) { .list-items { left: 28%; } }
 .list-items .edit { opacity: 0.4; width: 35px; height: 70px; -moz-box-shadow: inset 0 0 5px #000000; -webkit-box-shadow: inset 0 0 5px #000000; box-shadow: inset 0 0 5px #000000; }
 .list-items h2 { margin-left: 10px; font-size: 19px; font-weight: 630; margin-bottom: 15px; border-bottom-style: ridge; border-width: 1px; }
 .list-items .item-1, .list-items .item-2, .list-items .item-selling .list-first .item-3, .item-selling .list-first .list-items .item-3, .list-items .item-selling .list-second .item-3, .item-selling .list-second .list-items .item-3, .list-items .item-selling .list-first .item-4, .item-selling .list-first .list-items .item-4, .list-items .item-selling .list-second .item-4, .item-selling .list-second .list-items .item-4, .list-items .list-laptop .list-item .item-3, .list-laptop .list-item .list-items .item-3, .list-items .list-laptop .list-item .item-4, .list-laptop .list-item .list-items .item-4, .list-items .item-3, .list-items .item-4, .list-items .item-5 { margin-left: 1.5%; min-width: 230px; width: 18%; float: left; }
@@ -19,7 +20,8 @@
 .list-items .item-4 { margin-left: 0px; margin-right: 0px; }
 .list-items .item-4 #sale { background-color: orangered; font-size: 10.5px; padding: 3px; color: white; font-weight: bold; border-radius: 5em / 5em; position: relative; top: 210px; }
 
-.item-selling { background-color: white; min-width: 1240px; width: 90%; height: 675px; float: left; margin-left: 4.3%; margin-top: 15px; position: relative; left: 16%; }
+.item-selling { background-color: white; min-width: 1240px; width: 90%; height: 675px; float: left; margin-left: 4.3%; margin-top: 15px; position: relative; left: 2.5%; }
+@media screen and (min-width: 1400px) { .item-selling { left: 24%; } }
 .item-selling h2 { display: inline; margin-right: 110px; margin-left: 10px; font-size: 19px; font-weight: 640; text-transform: uppercase; position: relative; top: 10px; }
 .item-selling ul { display: inline; list-style: none; font-size: 13.5px; color: #0b93ee; position: relative; top: 10px; }
 .item-selling ul li { display: inline; margin-right: 26.5px; }
@@ -50,7 +52,8 @@
 .item-selling .list-second { position: relative; bottom: 33px; }
 .item-selling .list-second .item-3 a { position: relative; top: 20px; }
 
-.list-laptop { background-color: white; min-width: 1240px; width: 90%; height: 396px; float: left; margin-left: 4.3%; margin-top: 20px; position: relative; left: 16%; }
+.list-laptop { background-color: white; min-width: 1240px; width: 90%; height: 396px; float: left; margin-left: 4.3%; margin-top: 20px; position: relative; left: 2.5%; }
+@media screen and (min-width: 1400px) { .list-laptop { left: 24%; } }
 .list-laptop h2 { display: inline; margin-right: 95px; margin-left: 10px; font-size: 19px; font-weight: 640; text-transform: uppercase; position: relative; top: 10px; }
 .list-laptop ul { display: inline; list-style: none; font-size: 13.5px; color: #0b93ee; position: relative; top: 10px; }
 .list-laptop ul li { display: inline; margin-right: 25px; }
@@ -79,7 +82,8 @@
 .list-laptop .list-item .item-4 a .img-item { margin-top: 20px; }
 .list-laptop .list-item .item-4 #gift { width: 30px; height: 40px; }
 
-.item-accessories { float: left; background-color: white; min-width: 1240px; width: 90%; height: 380px; position: relative; top: 10px; margin-left: 4.3%; left: 16%; }
+.item-accessories { float: left; background-color: white; min-width: 1240px; width: 90%; height: 380px; position: relative; top: 10px; margin-left: 4.3%; left: 2.5%; }
+@media screen and (min-width: 1400px) { .item-accessories { left: 24%; } }
 .item-accessories ul { position: relative; top: 10px; display: inline; list-style: none; font-size: 13px; color: #078ce4; }
 .item-accessories ul li { display: inline; margin-right: 24px; }
 .item-accessories #sale { background-color: #eb9b06; font-size: 10.5px; padding: 3px; color: white; font-weight: bold; position: relative; top: 210px; z-index: 10; }
@@ -100,7 +104,8 @@
 .item-accessories .item-4 { margin-left: 0px; margin-right: 0px; }
 .item-accessories .item-4 #sale { background-color: orangered; font-size: 10.5px; padding: 3px; color: white; font-weight: bold; border-radius: 5em / 5em; position: relative; top: 200px; }
 
-.item-clock { float: left; background-color: white; min-width: 1240px; width: 90%; height: 380px; position: relative; top: 30px; margin-left: 4.3%; left: 16%; }
+.item-clock { float: left; background-color: white; min-width: 1240px; width: 90%; height: 380px; position: relative; top: 30px; margin-left: 4.3%; left: 2.5%; }
+@media screen and (min-width: 1400px) { .item-clock { left: 24%; } }
 .item-clock ul { display: inline; list-style: none; font-size: 13px; color: #0b93ee; margin-left: 75px; position: relative; top: 10px; }
 .item-clock ul li { display: inline; margin-right: 24px; }
 .item-clock h2 { display: inline; margin-left: 10px; margin-right: 70px; font-size: 19px; font-weight: 630; margin-bottom: 15px; position: relative; top: 10px; }

@@ -3,10 +3,11 @@
 body { min-width: 1300px; max-width: 1500px; width: 100%; }
 
 header { min-width: 1200px; width: 160%; background-color: #fed700; }
-header .mennu { width: 100%; height: 56px; margin: auto; position: relative; right: 5px; left: 10%; }
+header .mennu { width: 100%; height: 56px; margin: auto; position: relative; right: 5px; left: 1.5%; }
+@media screen and (min-width: 1400px) { header .mennu { left: 15%; } }
 header .mennu .form-search { float: left; width: 25%; max-width: 400px; height: 56px; margin: 10px 60px 0 0; padding: 5px; background: black; position: relative; bottom: 10px; left: 2.8%; }
 header .mennu .form-search input { width: 45%; border: 2px; background: #fff; height: 35px; text-indent: 10px; font-size: 12px; border-radius: 4px 0px 0px 4px; -webkit-border-radius: 4px 0px 0px 4px; padding: 5px; position: relative; left: 11px; }
-header .mennu .form-search button { width: 8%; height: 35px; border: 0; background: white; border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0px 4px 4px 0px; font-size: 20px; color: grey; position: relative; left: 5px; top: 2px; }
+header .mennu .form-search button { width: 8%; height: 35px; border: 0; background: white; border-radius: 0px 4px 4px 0px; -webkit-border-radius: 0px 4px 4px 0px; font-size: 20px; color: grey; position: relative; left: 5px; top: 4px; }
 header .mennu .form-search a { margin-left: 5px; }
 header .mennu .form-search a .icon-logo { width: 100%; max-width: 150px; height: 30px; }
 header .mennu .form-mennu { float: left; max-width: 1070px; width: 70%; }
@@ -31,7 +32,8 @@ header .mennu .form-mennu ul li:hover { background-color: white; }
 
 .clr { width: 100%; height: 10px; background-color: rgba(221, 217, 217, 0); }
 
-.slider { position: relative; float: left; max-width: 970px; width: 57%; height: 355px; margin-left: 4.3%; background-color: whitesmoke; left: 16%; }
+.slider { position: relative; float: left; max-width: 970px; width: 57%; height: 355px; margin-left: 4.3%; background-color: whitesmoke; left: 2.5%; }
+@media screen and (min-width: 1400px) { .slider { left: 24%; } }
 @media screen and (max-width: 1300px) { .slider { min-width: 60%; } }
 @media screen and (min-width: 1301px) and (max-width: 1352px) { .slider { width: 58%; } }
 .slider .w3-center { font-size: 10.5px; width: 100%; }
@@ -39,9 +41,11 @@ header .mennu .form-mennu ul li:hover { background-color: white; }
 .slider .mySlides { height: 300px; width: 100%; }
 .slider #edit { border: 0; border-radius: 5px; width: 50px; height: 55px; opacity: 0; background-color: black; margin: 8px; }
 .slider .glyphicon { font-size: 25px; }
-.slider .w3-content:hover #edit { opacity: 0.4; }
 
-.new { float: right; background-color: whitesmoke; width: 33%; max-width: 480px; height: 355px; margin-right: 3.3%; position: relative; left: 15%; }
+.slider :hover #edit { opacity: 0.4; }
+
+.new { float: right; background-color: whitesmoke; width: 33%; max-width: 480px; height: 355px; margin-right: 3.3%; position: relative; left: 1%; }
+@media screen and (min-width: 1400px) { .new { left: 22%; } }
 @media screen and (min-width: 1700px) { .new { margin-right: 70px; } }
 @media screen and (max-width: 1300px) { .new { margin-right: 0px; } }
 @media screen and (min-width: 1301px) and (max-width: 1699px) { .new { margin-right: 3.5%; } }
@@ -55,7 +59,8 @@ header .mennu .form-mennu ul li:hover { background-color: white; }
 .new .paper a p { font-size: 12px; margin-right: 10%; color: darkgray; }
 .new .banner a img { height: 105px; width: 100%; }
 
-.Ad { margin-left: 4.3%; margin-bottom: 10px; margin-top: 20px; min-width: 1240px; max-width: 1700px; width: 90%; position: relative; left: 16%; }
+.Ad { margin-left: 4.3%; margin-bottom: 10px; margin-top: 20px; min-width: 1240px; max-width: 1700px; width: 90%; position: relative; left: 2.7%; }
+@media screen and (min-width: 1400px) { .Ad { left: 24%; } }
 .Ad a .img-ad { width: 100%; }
 
 /*# sourceMappingURL=header.css.map */

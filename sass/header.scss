@@ -41,7 +41,10 @@ header {
     margin: auto;
     position: relative;
     right: 5px;
-    left: 10%;
+    left: 1.5%;
+    @media screen and (min-width:1400px){
+      left: 15%;
+    }
       .form-search {
         float: left;
         width: 25%;
@@ -78,7 +81,7 @@ header {
           color: grey;
           position: relative;
           left: 5px;
-          top: 2px;
+          top: 4px;
         }
         a {
           margin-left: 5px;
@@ -159,7 +162,10 @@ header {
     height: 355px;
     margin-left: 4.3%;
     background-color: whitesmoke;
-    left: 16%;
+    left:2.5%;
+    @media screen and (min-width:1400px){
+      left:24%;
+    }
     @media screen and (max-width:1300px){
       min-width: 60%;
     }
@@ -190,10 +196,12 @@ header {
     .glyphicon {
       font-size: 25px;
     }
-    .w3-content:hover {
-      #edit {
-        opacity: 0.4;
-      }
+    
+    
+  }
+  .slider :hover{
+    #edit {
+      opacity: 0.4;
     }
   }
   .new {
@@ -204,7 +212,10 @@ header {
     height: 355px;
     margin-right: 3.3%;
     position: relative;
-    left: 15%;
+    left: 1%;
+    @media screen and (min-width:1400px){
+      left:22%;
+    }
     @media screen and (min-width:1700px){
       margin-right: 70px;
     }
@@ -283,7 +294,10 @@ header {
   max-width: 1700px;
   width: 90%;
   position: relative;
-  left: 16%;
+  left: 2.7%;
+  @media screen and (min-width:1400px){
+    left:24%;
+  }
   a {
     .img-ad {
       width: 100%;

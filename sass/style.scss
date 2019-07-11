@@ -5,7 +5,10 @@
   width: 90%;
   height: 400px;
   position: relative;
-  left:20%;
+  left: 7%;
+  @media screen and (min-width:1400px){
+    left:28%;
+  }
   .edit {
     opacity: 0.4;
     width: 35px;
@@ -147,7 +150,10 @@
   margin-left: 4.3%;
   margin-top: 15px;
   position: relative;
-  left:16%;
+  left: 2.5%;
+  @media screen and (min-width:1400px){
+    left:24%;
+  }
   h2 {
     display: inline;
     margin-right: 110px;
@@ -337,7 +343,10 @@
   margin-left: 4.3%;
   margin-top: 20px;
   position: relative;
-  left:16%;
+  left: 2.5%;
+  @media screen and (min-width:1400px){
+    left:24%;
+  }
   h2 {
     display: inline;
     margin-right: 95px;
@@ -517,7 +526,10 @@
   position: relative;
   top: 10px;
   margin-left: 4.3%;
-  left:16%;
+  left: 2.5%;
+   @media screen and (min-width:1400px){
+    left:24%;
+  }
   ul {
     position: relative;
     top: 10px;
@@ -657,7 +669,10 @@
   position: relative;
   top: 30px;
   margin-left: 4.3%;
-  left:16%;
+  left: 2.5%;
+  @media screen and (min-width:1400px){
+    left:24%;
+  }
   ul {
     display: inline;
     list-style: none;
