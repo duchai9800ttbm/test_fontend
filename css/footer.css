@@ -10,16 +10,24 @@
   left: 2.5%; }
   @media screen and (min-width: 1400px) {
     .sale-member {
-      left: 24%; } }
+      left: 45%; } }
+  @media screen and (max-width: 1300px) {
+    .sale-member {
+      left: 33%; } }
   .sale-member h2 {
     padding: 5px;
     font-size: 18px;
     font-weight: bold;
     margin-left: 20px; }
-  .sale-member a img {
-    margin-left: 10px;
-    min-width: 1220px;
-    width: 98%; }
+  .sale-member a .bannerSale {
+    margin: 0 1.7%;
+    background-image: url(/img/Ad/13_04_2019_13_16_59_TGDD-maylanh-banner-desk.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat; }
+    @media screen and (min-width: 1400px) {
+      .sale-member a .bannerSale {
+        margin: 0 5.4%; } }
 
 footer {
   float: left;
@@ -30,10 +38,14 @@ footer {
   height: 250px; }
   footer .info {
     position: relative;
-    left: 1%; }
+    left: 1%;
+    background-color: white; }
     @media screen and (min-width: 1400px) {
       footer .info {
-        left: 15%; } }
+        left: 28%; } }
+    @media screen and (max-width: 1300px) {
+      footer .info {
+        left: 20%; } }
     footer .info .info-first, footer .info .info-second {
       float: left;
       margin-top: 0px;

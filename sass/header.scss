@@ -7,8 +7,11 @@ $name: ("icon-dienthoai"), ("icon-tablet"), ("icon-laptop"), ("icon-phukien"), (
       @if ($var== "icon-dienthoai") {
         margin-left: 30%;
       } @else if($var== "icon-phukien") {
-        margin-left: 20%;
+        margin-left: 30%;
       } @else if($var== "icon-dongho") {
+        margin-left: 35%;
+      } 
+      @else if($var== "icon-giare") {
         margin-left: 20%;
       } @else if($var== "fix") {
         position: relative;
@@ -37,25 +40,34 @@ header {
   background-color: #fed700;
   .mennu {
     width: 100%;
-    height: 56px;
+    height: 60px;
     margin: auto;
     position: relative;
+    background-color: #fed700;
     right: 5px;
     left: 1.5%;
     @media screen and (min-width:1400px){
-      left: 15%;
+      left: 28%;
+    }
+    @media screen and (max-width:1300px){
+      left: 20%;
     }
       .form-search {
         float: left;
-        width: 25%;
+        width: 15%;
         max-width: 400px;
-        height: 56px;
+        height: 60px;
         margin: 10px 60px 0 0;
         padding: 5px;
         background: black;
         position: relative;
         bottom: 10px;
         left: 2.8%;
+       .d-flex{
+         position: absolute;
+         bottom: 13px;
+         left: 155px;
+         width: 90%;
         input {
           width: 45%;
           border: 2px;
@@ -71,7 +83,7 @@ header {
           
         }
         button {
-          width: 8%;
+          width: 30px;
           height: 35px;
           border: 0;
           background: white;
@@ -79,13 +91,14 @@ header {
           -webkit-border-radius: 0px 4px 4px 0px;
           font-size: 20px;
           color: grey;
-          position: relative;
-          left: 5px;
-          top: 4px;
+          
         }
+       }
         a {
           margin-left: 5px;
           .icon-logo {
+            position: relative;
+            top:9px;
             width: 100%;
             max-width: 150px;
             height: 30px;
@@ -108,15 +121,13 @@ header {
             @media screen and (min-width:1700px){
               width: 95px;
             }
-            height: 56px;
+            height: 60px;
             float: left;
-            padding: 5px 10px;
-            position: relative;
-            right: 10px;
+            padding: 5px 5px;
             a {
               width: 100%;
               color: black;
-              font-size: 60%;
+              font-size: 10px;
               font-weight: 300;
               text-transform: uppercase;
               line-height: 20px;
@@ -127,22 +138,36 @@ header {
                 margin-top: 4%;
               }
               .text-diennuoc {
-                font-size: 60%;
+                font-size:9px;
               }
+            }
+            .icon-laptop{
+              position: relative;
+              left: 10px;
+            }
+            .icon-phukien{
+              position: relative;
+              left: 1px;
+            }
+            .icon-giare{
+              position: relative;
+              right: 3px;
+            }
+            .fix-icon1{
+              position: relative;
+              left: 19px;
             }
           }
           li:hover {
             background-color: white;
           }
           .Border {
-            
-            @media screen and (min-width:1800px){
-              width: 11%;
-              }
-              @media screen and (max-width:1879px){
-                width: 12.5%;
-                }
-         
+           width: 140px;
+           padding:0 auto;
+           padding-left: 20px;
+           @media screen and (max-width:1700px) {
+             width: 20%;
+           }
           }
         }
       }
@@ -157,17 +182,26 @@ header {
   .slider {
     position: relative;
     float: left;
-    max-width: 970px;
-    width: 57%;
+    width: 830px;
     height: 355px;
     margin-left: 4.3%;
     background-color: whitesmoke;
     left:2.5%;
-    @media screen and (min-width:1400px){
-      left:24%;
+    @media screen and (min-width:1400px)and(max-width:1410px){
+      width: 890px;
+      left:45%;
+    }
+    @media screen and (min-width:1411px){
+      width: 900px;
+      left:45%;
+    }
+    @media screen and (min-width:1500px){
+      width: 930px;
+      left:45%;
     }
     @media screen and (max-width:1300px){
       min-width: 60%;
+      left:32% ;
     }
     @media screen and (min-width:1301px)and(max-width:1352px){
        width: 58%;
@@ -207,14 +241,12 @@ header {
   .new {
     float: right;
     background-color: whitesmoke;
-    width: 33%;
-    max-width: 480px;
+    width: 400px;
     height: 355px;
-    margin-right: 3.3%;
     position: relative;
-    left: 1%;
+    left: 30px;
     @media screen and (min-width:1400px){
-      left:22%;
+      left:44%;
     }
     @media screen and (min-width:1700px){
       margin-right: 70px;
@@ -222,9 +254,13 @@ header {
 
       @media screen and (max-width:1300px){
         margin-right:0px;
+        left: 33%;
       }
-      @media screen and (min-width:1301px)and(max-width:1699px){
+      @media screen and (min-width:1301px)and(max-width:1499px){
         margin-right:3.5%;
+      }
+      @media screen and (min-width:1500px)and(max-width:1699px){
+        margin-right:4.5%;
       }
     .alert {
       font-size: 70%;
@@ -296,7 +332,10 @@ header {
   position: relative;
   left: 2.7%;
   @media screen and (min-width:1400px){
-    left:24%;
+    left:45%;
+  }
+  @media screen and (max-width:1300px){
+    left:33%;
   }
   a {
     .img-ad {
