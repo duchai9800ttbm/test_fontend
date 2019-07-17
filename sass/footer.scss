@@ -14,6 +14,9 @@
   @media screen and (max-width:1300px){
     left:33%;
   }
+  @media screen and (min-width:1301px)and(max-width:1399px){
+    left:39.7%;
+  }
   h2 {
     padding: 5px;
     font-size: 18px;
@@ -49,6 +52,9 @@ footer {
     }
     @media screen and (max-width:1300px){
       left:20%;
+    }
+    @media screen and (min-width:1301px)and(max-width:1399px){
+      left:24%;
     }
     .info-first {
     float: left;

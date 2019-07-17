@@ -12,6 +12,9 @@
   @media screen and (max-width: 1300px) {
     .list-items {
       left: 37%; } }
+  @media screen and (min-width: 1301px) and (max-width: 1399px) {
+    .list-items {
+      left: 44%; } }
   .list-items .edit {
     opacity: 0.4;
     width: 35px;
@@ -129,6 +132,9 @@
   @media screen and (max-width: 1300px) {
     .item-selling {
       left: 33%; } }
+  @media screen and (min-width: 1301px) and (max-width: 1399px) {
+    .item-selling {
+      left: 39.6%; } }
   .item-selling h2 {
     display: inline;
     margin-right: 110px;
@@ -291,6 +297,9 @@
   @media screen and (max-width: 1300px) {
     .list-laptop {
       left: 33%; } }
+  @media screen and (min-width: 1301px) and (max-width: 1399px) {
+    .list-laptop {
+      left: 39.7%; } }
   .list-laptop .border-bottom {
     border-width: 1px;
     border-bottom-style: ridge;
@@ -448,6 +457,9 @@
   @media screen and (max-width: 1300px) {
     .item-accessories {
       left: 33%; } }
+  @media screen and (min-width: 1301px) and (max-width: 1399px) {
+    .item-accessories {
+      left: 39.7%; } }
   .item-accessories .border-bottom {
     border-width: 1px;
     border-bottom-style: ridge;
@@ -565,6 +577,9 @@
   @media screen and (max-width: 1300px) {
     .item-clock {
       left: 33%; } }
+  @media screen and (min-width: 1301px) and (max-width: 1399px) {
+    .item-clock {
+      left: 39.7%; } }
   .item-clock .border-bottom {
     border-width: 1px;
     border-bottom-style: ridge;
